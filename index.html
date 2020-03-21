@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Carousel</title>
+    <script src="https://kit.fontawesome.com/9d755ff8ab.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <main>
+            <nav class="header-nav">
+                <div class="header-nav__logo">logo</div>
+                <ul class="header-nav__navigation">
+                    <li>Accueil</li>
+                    <li>À propos</li>
+                    <li>Contact</li>
+                </ul>
+                <div class="hamberger-icon" id="hamberger-icon">
+                    <img src="hamberger-icon.svg" alt="Navigation">
+                </div>
+            </nav>
+            <div class="box-title">
+                <h1>Voyagez tout simplement</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium natus sint aliquam corrupti.
+                    Delectus corporis quisquam nobis iusto voluptate suscipit.</p>
+            </div>
+            <div class="carousel" id="carousel">
+                <div class="carousel__image">
+                    <div class="carousel__image-container">
+                        <img src="/images/grèce.jpg" alt="Grèce">
+                    </div>
+                    <div class="carousel__image-container main">
+                        <img src="/images/paris.jpeg" alt="Paris">
+                    </div>
+                    <div class="carousel__image-container">
+                        <img src="/images/vietnam.jpg" alt="Vietnam">
+                    </div>
+                </div>
+
+                <div class="carousel__bottom">
+                    <button class="arrow-left arrow" id="arrow-left"><i class="fas fa-arrow-left"></i></button>
+                    <div class="carousel__bottom__numbers" id="bottom-numbers">
+                        <span class="carousel__bottom__numbers" id="number-1">01</span>
+                        <span class="carousel__bottom__numbers active" id="number-2">02</span>
+                        <span class="carousel__bottom__numbers" id="number-3">03</span>
+                    </div>
+                    <button class="arrow-right arrow" id="arrow-right"><i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/seraph.delver"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/kennydelver/"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </main>
+
+    </div>
+</body>
+
+</html>
